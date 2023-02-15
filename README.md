@@ -7,6 +7,11 @@ This is a re-creation of the DOD Overdrive 250 / MXR Distortion+ op-amp drive ci
 
 [Schematic](hardware/BufferOverflow_schematic_v0.01.pdf)
 
+
+## BOM
+
+TODO
+
 ## Credit
 The basic schematic I worked from is available from a variety of sources, but this was primarily derived from the [PedalPCB Distortion 250](https://www.pedalpcb.com/product/dist250/). I strongly endorse PedalPCB (and this pedal) as a great way to get started building effects.
 
