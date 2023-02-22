@@ -6,8 +6,8 @@
 
   (title_block
     (title "Buffer Overflow Drive Effect")
-    (date "2023-02-14")
-    (rev "0.1")
+    (date "2023-02-22")
+    (rev "v0.2")
   )
 
   (lib_symbols
@@ -863,9 +863,6 @@
   (junction (at 81.28 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 582ca71f-5ea4-416e-927c-58bf7c45b214)
   )
-  (junction (at 50.8 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid 60ac99b7-89b1-42db-9e80-f45c2f6493f6)
-  )
   (junction (at 53.34 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 68967b94-13ea-448a-a59d-113653a1d12c)
   )
@@ -1150,10 +1147,6 @@
   (wire (pts (xy 123.19 129.54) (xy 123.19 127))
     (stroke (width 0) (type default))
     (uuid 8ac99ea3-929f-4b1f-8f15-74bd947466e0)
-  )
-  (wire (pts (xy 49.53 35.56) (xy 50.8 35.56))
-    (stroke (width 0) (type default))
-    (uuid 8ade4adf-ba45-4122-a174-4be37c61c0b7)
   )
   (polyline (pts (xy 105.41 95.25) (xy 105.41 166.37))
     (stroke (width 0) (type default))
@@ -1871,7 +1864,7 @@
     (property "Value" "On" (at 43.18 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm_FlatTop" (at 43.18 109.22 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 43.18 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 109.22 0)
@@ -2120,7 +2113,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 147.32 45.72 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8924c3a2-50ef-419a-b1ff-86a17f58af09)
-    (property "Reference" "Vol1" (at 146.05 44.45 0)
+    (property "Reference" "POT1" (at 146.05 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "A10k" (at 146.05 46.99 0)
@@ -2132,13 +2125,16 @@
     (property "Datasheet" "~" (at 147.32 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Label" "Volume" (at 152.4 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "1" (uuid 2fbe1721-37c0-4542-a6ed-612c8fcd6bb1))
     (pin "2" (uuid 31e0e106-54f9-4c46-9a6c-71c21441b84b))
     (pin "3" (uuid 9486c379-34be-49c0-9113-18ef3f1109ba))
     (instances
       (project "buffer_overflow"
         (path "/65eca179-3106-4a88-bde8-4fcb23cd7118"
-          (reference "Vol1") (unit 1)
+          (reference "POT1") (unit 1)
         )
       )
     )
@@ -2203,9 +2199,9 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer_US") (at 64.77 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 93ce91c4-ed6a-4aeb-9a0b-6d103c8b29ed)
-    (property "Reference" "Gain1" (at 62.23 79.3749 0)
+    (property "Reference" "POT2" (at 62.23 79.3749 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B1M" (at 62.23 81.9149 0)
@@ -2217,13 +2213,16 @@
     (property "Datasheet" "~" (at 64.77 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Label" "Gain" (at 67.31 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "1" (uuid ddd038dd-3fca-492b-bcf7-8c1a95f71b62))
     (pin "2" (uuid 0554debd-0f6c-4b9b-a4e8-4915deedfc8c))
     (pin "3" (uuid 9f1a107c-1bd0-4046-a189-c6f3d023a77c))
     (instances
       (project "buffer_overflow"
         (path "/65eca179-3106-4a88-bde8-4fcb23cd7118"
-          (reference "Gain1") (unit 1)
+          (reference "POT2") (unit 1)
         )
       )
     )
