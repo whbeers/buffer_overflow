@@ -18,5 +18,13 @@ TODO
 
 The effect is designed to be assembled in a similar way to other PedalPCB effects, and is compatible with their [3PDT footswitch utility PCB](https://www.pedalpcb.com/product/3pdt/). More detailed instructions TODO, for now refer to PedalPCB instructions... and buy thier PCBs.
 
+## Versioning
+
+My pcb designs utilize the following versioning scheme (I'll add to this as I produce more revisions):
+ - v0.0XX: A candidate design that has not yet been produced and tested.
+ - v0.XX: A design that has been produced, tested, and any initial errors addressed.
+
+The current version of the Buffer Overflow Overdrive effect is v0.1.
+
 ## Name
 *The name "Buffer Overflow" is a reflection of the nature of the effect (an overdrive) and security nerdery.*
