@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "buffer_overflow_library")(type "KiCad")(uri "${KIPRJMOD}/buffer_overflow_library.kicad_sym")(options "")(descr ""))
+)
