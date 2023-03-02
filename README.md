@@ -18,5 +18,10 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
 
 The current version of the Buffer Overflow Overdrive effect is v0.30.
 
+## Planned TODOs before v0.40
+ - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board.
+ - Later, migrate indicator LED and power protection circuit to Noise Floor.
+ - Fix any issues I identify with produced v0.30 boards.
+
 ## Name
 *The name "Buffer Overflow" is a reflection of the nature of the effect (an overdrive) and security nerdery.*
