@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "buffer_overflow")(type "KiCad")(uri "${KIPRJMOD}/buffer_overflow.pretty")(options "")(descr ""))
+)
