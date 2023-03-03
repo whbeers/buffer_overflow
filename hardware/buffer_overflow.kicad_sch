@@ -1727,7 +1727,7 @@
     (property "Reference" "J2" (at 106.68 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "E2" (at 106.68 114.3 0)
+    (property "Value" "E1" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" (at 111.76 106.68 0)
