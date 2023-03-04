@@ -6,8 +6,8 @@
 
   (title_block
     (title "Buffer Overflow Drive Effect")
-    (date "2023-03-03")
-    (rev "v0.38")
+    (date "2023-03-04")
+    (rev "v0.39")
     (company "github.com/whbeers/buffer_overflow")
   )
 
@@ -1730,7 +1730,7 @@
     (property "Value" "E1" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" (at 111.76 106.68 0)
+    (property "Footprint" "buffer_overflow:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical_with_3D_Model" (at 111.76 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 106.68 0)

@@ -7,10 +7,12 @@ The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/BufferOverflow_schematic_v0.38.pdf)
+[Schematic](hardware/BufferOverflow_schematic_v0.39.pdf)
 
 ## Credit
 The basic schematic I worked from is available from a variety of sources, but this was primarily derived from the [PedalPCB Distortion 250](https://www.pedalpcb.com/product/dist250/). I strongly endorse PedalPCB (and this pedal) as a great way to get started building effects.
+
+Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
 
 ## Versioning
 
@@ -18,7 +20,7 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Buffer Overflow Overdrive effect is v0.38.
+The current version of the Buffer Overflow Overdrive effect is v0.39.
 
 ## Planned TODOs before v0.40
  - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE in v0.35!]
