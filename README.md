@@ -6,8 +6,8 @@ The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
-
-[Schematic](hardware/BufferOverflow_schematic_v0.39.pdf)
+![Schematic SVG](schematics/buffer_overflow-latest.svg)
+[Schematic PDF](schematics/buffer_overflow-latest.pdf)
 
 ## Credit
 The basic schematic I worked from is available from a variety of sources, but this was primarily derived from the [PedalPCB Distortion 250](https://www.pedalpcb.com/product/dist250/). I strongly endorse PedalPCB (and this pedal) as a great way to get started building effects.
