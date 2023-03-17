@@ -14,6 +14,8 @@ The basic schematic I worked from is available from a variety of sources, but th
 
 Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
 
+*I am not affiliated with any of the brands, sites, or products named in this overview.*
+
 ## Versioning
 
 My pcb designs utilize the following versioning scheme (I'll add to this as I produce more revisions):
