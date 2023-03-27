@@ -12,7 +12,9 @@ The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor
 ## Credit
 The basic schematic I worked from is available from a variety of sources, but this was primarily derived from the [PedalPCB Distortion 250](https://www.pedalpcb.com/product/dist250/). I strongly endorse PedalPCB (and this pedal) as a great way to get started building effects.
 
-Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
+Thanks as always to the folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions.
+
+Potentiometer 3D model courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
 
 *I am not affiliated with any of the brands, sites, or products named in this overview.*
 
