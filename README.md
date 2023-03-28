@@ -24,11 +24,11 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-## Planned TODOs before v0.40
- - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE in v0.35!]
- - Later, migrate indicator LED and power protection circuit to Noise Floor. [DONE in v0.35!]
- - Clean up and condense the layout [DONE in v0.38!]
- - Fix any issues I identify with produced v0.30 boards.
+## Note on v0.40
+
+v0.40 updates Buffer Overflow as a proof-of-concept for the experimental [Noise Floor](https://github.com/whbeers/noise_floor) UX board, which uses board-to-board connectors to modularize the control surface the effect. While it only exercises two potentiometers from the UX board, I may expand use of it (e.g. switchable clipping diode banks, etc).
+
+I've also changed resistors and capacitors to 1206 SMD parts. Due to the fact that the board-to-board assemblies are also surface mount, it meant moving almost all parts to the back of the board. This resulted in an awkward-looking layout, to say the least, and I expect it to evolve over time.
 
 ## Name
 *The name "Buffer Overflow" is a reflection of the nature of the effect (an overdrive) and security nerdery.*
