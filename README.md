@@ -14,7 +14,7 @@ The basic schematic I worked from is available from a variety of sources, but th
 
 Thanks as always to the folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions.
 
-Potentiometer 3D model courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
+Conan Lite footprints adapted from the 51-position footprints available from SnapEDA: [Header](https://www.snapeda.com/parts/10162582-1134151LF/Amphenol%20ICC%20(FCI)/view-part/), [Receptacle](https://www.snapeda.com/parts/10162581-3134151LF/Amphenol%20ICC%20(FCI)/view-part/).([Additional license details](hardware/SnapEDA_Licensing.txt)). 3D models courtesy Amphenol.
 
 *I am not affiliated with any of the brands, sites, or products named in this overview.*
 
